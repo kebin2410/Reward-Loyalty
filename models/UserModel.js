@@ -14,7 +14,7 @@ const UserSchema = new Schema(
 
     profilePicUrl: { type: String },
 
-    coverPicUrl: {type: String},
+    coverPicUrl: { type: String },
 
     newMessagePopup: { type: Boolean, default: true },
 

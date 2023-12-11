@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
+import { parseCookies } from "nookies";
+import baseUrl from "../utils/baseUrl";
 import LoyaltyCard from "../components/cards/LoyaltyCard";
 import { card_data } from "../components/home/homeData";
 
