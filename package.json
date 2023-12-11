@@ -13,8 +13,6 @@
     "re-build": "rm -rf node_modules .next out dist build && yarn install && yarn build"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
     "@next/font": "13.1.1",
     "@nextui-org/react": "^2.2.9",
     "@tanstack/react-table": "^8.10.7",
